@@ -7,9 +7,12 @@
     @vite('resources/css/app.css')
 </head>
 <body>
+    <section class="leading-normal tracking-normal text-indigo-400 px-32 bg-cover bg-fixed" style="background-image: url('img/header.png');">
     @include('faze/header')
 
     @include('faze/info')
+    <section/>
+
     <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 
 </body>
